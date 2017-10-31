@@ -1,0 +1,24 @@
+Node - plataforma para compilar javascript
+
+Method (verb)
+Get, post, put, patch, delete, head
+
+status retorno
+100 - envio de informação
+200 - ok
+300 - redirect
+400 - erro de patch
+500 - erro server
+
+
+identificar arquivos e o que esta sendo retornado.
+Especificação no header da requisição
+
+header - accept ex application/json
+
+
+pm2 - pesquisar.
+
+
+version npm project
+1.0.0 (major, minor, patch)
