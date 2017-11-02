@@ -8,5 +8,7 @@ function createConnection(){
         database: 'casadocodigo'
     });
 }
-
-module.exports = createConnection;
+//module.exports = () => createConnection
+module.exports = function(){
+    return createConnection;
+}
