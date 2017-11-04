@@ -1,7 +1,7 @@
 {
   "name": "casadocodigo",
   "version": "1.0.0",
-  "description": "Projeto curso node loja de livros",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "DATABASE=casadocodigo2_teste mocha --recursive test",
@@ -9,19 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liliansousa/caelum-curso-node.git"
+    "url": "git+https://github.com/CaelumAulas/node7183.git"
   },
   "keywords": [
-    "projeto",
-    "caelum",
-    "node"
+    "livro"
   ],
-  "author": "Lilian Dias",
-  "license": "MIT",
+  "author": "Marco Bruno",
+  "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/liliansousa/caelum-curso-node/issues"
+    "url": "https://github.com/CaelumAulas/node7183/issues"
   },
-  "homepage": "https://github.com/liliansousa/caelum-curso-node#readme",
+  "homepage": "https://github.com/CaelumAulas/node7183#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
