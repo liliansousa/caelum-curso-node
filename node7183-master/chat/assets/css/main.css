@@ -1,0 +1,40 @@
+.msg {
+  background-color: var(--fundo);
+  height: 90vh;
+}
+
+.msg__title {
+  color: var(--letra);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em
+}
+
+.send-msg__content {
+  width: 85vw;
+  height: 10vh;
+  color: #666;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1.8em;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 2px solid var(--border-color);
+}
+
+.send-msg__action {
+  box-sizing: border-box;
+  width: 15vw;
+  height: 10vh;
+  background-color: var(--btn);
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--letra);
+  cursor: pointer;
+
+  transition: background-color 200ms linear;
+}
+
+.send-msg__action:hover {
+  background-color: var(--btn-over)
+}

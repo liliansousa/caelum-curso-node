@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+const databaseName = 'casadocodigo';
 
 function createConnection(){
     return mysql.createConnection({
